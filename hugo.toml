@@ -79,7 +79,9 @@ paginate     = 10
     identifier = "about"
     name       = "About"
     url        = "/about"
-  [[menu.main]]
-    identifier = "resume"
-    name       = "Resume"
-    url        = "/Resume2024.pdf"
+    weight     = 999
+#  [[menu.main]]
+#    identifier = "resume"
+#    name       = "Resume"
+#    url        = "/resume2024.pdf"
+#    weight     = 1
