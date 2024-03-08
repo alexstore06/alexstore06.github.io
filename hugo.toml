@@ -64,7 +64,7 @@ paginate     = 10
     readOtherPosts = "Read other posts"
 
   [languages.en.params]
-    subtitle  = "A simple theme for Hugo"
+#    subtitle  = "A simple theme for Hugo"
 
     [languages.en.params.logo]
       logoText = "alexander weir"
