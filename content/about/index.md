@@ -7,7 +7,7 @@ Hello! I'm Alex Weir, a Liberty University student graduating in 2028 with a Bac
 
 I love tech and have basic skills in a reasonably wide range of platforms and technologies, but I have excellent Googling skills and can figure out anything in a pinch. Though I don't have a degree, I have a number of certifications, and my collection of them is always growing.
 
-#### [Resume (PDF)](/resume2024.pdf)
+#### [Resume (PDF)](/Resume2024.pdf)
 
 ---
 ## Certifications
