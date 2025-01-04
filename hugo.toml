@@ -28,7 +28,7 @@ paginate     = 10
   images = [""]
 
     [params.footer]
-    trademark = 2023
+    trademark = 2025
     rss = false
     copyright = true
     author = false
@@ -75,13 +75,13 @@ paginate     = 10
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
+#  [[menu.main]]
+#    identifier = "resume"
+#    name       = "Resume"
+#    url        = "/Resume2025.pdf"
+#    weight     = 1
   [[menu.main]]
     identifier = "about"
     name       = "About"
     url        = "/about"
-    weight     = 999
-#  [[menu.main]]
-#    identifier = "resume"
-#    name       = "Resume"
-#    url        = "/resume2024.pdf"
-#    weight     = 1
+    weight     = 4

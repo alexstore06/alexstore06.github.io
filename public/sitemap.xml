@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>localhost/about/</loc>
+    <loc>//localhost:1313/about/</loc>
   </url><url>
-    <loc>localhost/</loc>
+    <loc>//localhost:1313/</loc>
   </url><url>
-    <loc>localhost/blog/</loc>
+    <loc>//localhost:1313/blog/</loc>
   </url><url>
-    <loc>localhost/series/</loc>
+    <loc>//localhost:1313/series/</loc>
   </url><url>
-    <loc>localhost/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>

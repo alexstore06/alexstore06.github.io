@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alexander Weir</title>
-    <link>localhost/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Alexander Weir</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-SA 4.0&lt;/a&gt;</copyright>
-    <atom:link href="localhost/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>localhost/about/</link>
+      <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>localhost/about/</guid>
-      <description>Hello! I&amp;rsquo;m Alex Weir, a community college student aiming for a Bachelor&amp;rsquo;s in Computer Engineering.
-I love tech and have basic skills in a reasonably wide range of platforms and technologies, but I have excellent Googling skills and can figure out anything in a pinch. Though I don&amp;rsquo;t have a degree (or even a diploma, yet), I have a number of certifications, and my collection of them is always growing.</description>
+      <guid>//localhost:1313/about/</guid>
+      <description>Hello! I&amp;rsquo;m Alex Weir, a Liberty University student graduating in 2028 with a Bachelor&amp;rsquo;s in Computer Engineering.&#xA;I love tech and have basic skills in a reasonably wide range of platforms and technologies, but I have excellent Googling skills and can figure out anything in a pinch. Though I don&amp;rsquo;t have a degree, I have a number of certifications, and my collection of them is always growing.&#xA;I&amp;rsquo;m on the Liberty University Collegiate Cyber Defense Competition (CCDC) team, focusing on Linux and network enumeration.</description>
     </item>
   </channel>
 </rss>
