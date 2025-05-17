@@ -18,3 +18,4 @@ I'm on the Liberty University Collegiate Cyber Defense Competition (CCDC) team, 
 | ![](/a.png) | ![](/365.png) | ![](/cswa.png) |
 | ![](/network.png) | ![](/azure.png) |
 | ![](/security.png) | ![](/office.png) |
+| ![](/linux.png) |
