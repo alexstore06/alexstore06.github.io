@@ -85,3 +85,6 @@ paginate     = 10
     name       = "About"
     url        = "/about"
     weight     = 4
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
