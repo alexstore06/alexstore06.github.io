@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "https://alexstore06.github.io/"
 title        = "Alexander Weir"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
