@@ -13,7 +13,14 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;img src=&#34;http://localhost:1313/me.jpg&#34;  class=&#34;left&#34;  style=&#34;width:300px; height:300px; border-radius:10px&#34;  /&gt;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;p&gt;Hello! I&amp;rsquo;m Alex Weir, a Liberty University student graduating in 2028 with a Bachelor&amp;rsquo;s in Computer Engineering.&lt;/p&gt;&#xA;&lt;p&gt;I love tech and have basic skills in a reasonably wide range of platforms and technologies, but I have excellent Googling skills and can figure out anything in a pinch. Though I don&amp;rsquo;t have a degree, I have a number of certifications, and my collection of them is always growing.&lt;/p&gt;</description>
+      <description>&lt;img src=&#34;http://localhost:1313/me.jpg&#34;  class=&#34;left&#34;  style=&#34;width:300px; height:300px; border-radius:10px&#34;  /&gt;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;p&gt;Hello! I&amp;rsquo;m Alex Weir, a Liberty University student graduating in 2028 with a Bachelor&amp;rsquo;s in Computer Engineering.&lt;/p&gt;&#xA;&lt;p&gt;I love tech, engineering, and physics and have particular skills in computer networking, having studied it for a number of years now. I have a considerable and growing collection of certifications to demonstrate my broad range of IT, networking, and security knowledge.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m also on the Liberty University Collegiate Cyber Defense Competition (CCDC) team, focusing on Linux and network enumeration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects, etc</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m studying and working on a number of projects all of the time. If you have any insights into these, let me know! I&amp;rsquo;m particularly interested in computer, electrical, and mechanical engineering topics.&lt;/p&gt;&#xA;&lt;h2 id=&#34;current-projects&#34;&gt;Current Projects&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Linux from Scratch (LFS)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been working on this for a while, and I&amp;rsquo;m almost done. Building a Linux system from the ground up has given me huge appreciation for how much work individual distributions put into dealing with the quirks of every single package that make up a Linux system.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

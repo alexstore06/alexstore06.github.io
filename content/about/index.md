@@ -5,12 +5,15 @@ title: About Me
 
 Hello! I'm Alex Weir, a Liberty University student graduating in 2028 with a Bachelor's in Computer Engineering.
 
-I love tech and have basic skills in a reasonably wide range of platforms and technologies, but I have excellent Googling skills and can figure out anything in a pinch. Though I don't have a degree, I have a number of certifications, and my collection of them is always growing.
+I love tech, engineering, and physics and have particular skills in computer networking, having studied it for a number of years now. I have a considerable and growing collection of certifications to demonstrate my broad range of IT, networking, and security knowledge.
 
-I'm on the Liberty University Collegiate Cyber Defense Competition (CCDC) team, focusing on Linux and network enumeration.
+I'm also on the Liberty University Collegiate Cyber Defense Competition (CCDC) team, focusing on Linux and network enumeration.
+
+Though I'm not quite out of college, I'm studying cross-discipline engineering topics heavily on my own and plan to take many Mechanical Engineering classes over my time at Liberty.
+
+Please check out my resume and reach out! I'd love to connect. Contact information is on the links on the front page.
 
 #### [Resume (PDF)](/Resume2025.pdf)
-
 ---
 ## Certifications
 | CompTIA | Microsoft | Dassault Systèmes |
@@ -19,3 +22,8 @@ I'm on the Liberty University Collegiate Cyber Defense Competition (CCDC) team, 
 | ![](/network.png) | ![](/azure.png) |
 | ![](/security.png) | ![](/office.png) |
 | ![](/linux.png) |
+
+## Classes Taken
+
+- Calculus 3/Physics 2
+- C++ Programming

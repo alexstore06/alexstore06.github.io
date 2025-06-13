@@ -8,6 +8,8 @@
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
   </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+  </url><url>
     <loc>http://localhost:1313/series/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>

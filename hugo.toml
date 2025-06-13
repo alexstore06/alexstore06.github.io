@@ -88,7 +88,12 @@ theme        = "hello-friend-ng"
     identifier = "about"
     name       = "About"
     url        = "/about"
-    weight     = 4
+    weight     = 5
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects"
+    weight     = 1
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
