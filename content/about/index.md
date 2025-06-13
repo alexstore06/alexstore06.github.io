@@ -11,7 +11,7 @@ I'm also on the Liberty University Collegiate Cyber Defense Competition (CCDC) t
 
 Though I'm not quite out of college, I'm studying cross-discipline engineering topics heavily on my own and plan to take many Mechanical Engineering classes over my time at Liberty.
 
-Please check out my resume and reach out! I'd love to connect. Contact information is on the links on the front page.
+Please check out my resume and reach out! I'd love to connect. Contact information is on the links on the front page or in my resume.
 
 #### [Resume (PDF)](/Resume2025.pdf)
 ---

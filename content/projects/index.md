@@ -22,6 +22,10 @@ I've been studying optics on my own recently, so I'm reading this textbook in pr
 
 The CySA+ will be my next major certification. I've been studying cybersecurity in a competition environment for some time now, so I'm feeling confident about it.
 
+- Basys3 FPGA
+
+I bought this FPGA board recently to do some experimentation. I'm hoping to learn a lot about FPGAs and logic design over the coming months.
+
 ## Classes taken outside of program
 
 - Accounting I
