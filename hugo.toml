@@ -2,7 +2,11 @@ baseurl      = "localhost"
 title        = "Alexander Weir"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
-paginate     = 10
+
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = 'page'
 
 [params]
   dateform        = "Jan 2, 2006"
