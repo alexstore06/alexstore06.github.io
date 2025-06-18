@@ -15,6 +15,12 @@ Please check out my resume and reach out! I'd love to connect. Contact informati
 
 #### [Resume (PDF)](/Resume2025.pdf)
 ---
+## Major Classes Taken
+
+- Calculus 3/Physics 2
+- Advanced C++ Programming
+- *Total credits earned: 96*
+
 ## Certifications
 | CompTIA | Microsoft | Dassault Systèmes |
 | :-: | :-: | :-: |
@@ -22,8 +28,3 @@ Please check out my resume and reach out! I'd love to connect. Contact informati
 | ![](/network.png) | ![](/azure.png) |
 | ![](/security.png) | ![](/office.png) |
 | ![](/linux.png) |
-
-## Classes Taken
-
-- Calculus 3/Physics 2
-- C++ Programming

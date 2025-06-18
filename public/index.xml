@@ -20,7 +20,7 @@
       <link>http://localhost:1313/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m studying and working on a number of projects all of the time. If you have any insights into these, let me know! I&amp;rsquo;m particularly interested in computer, electrical, and mechanical engineering topics.&lt;/p&gt;&#xA;&lt;h2 id=&#34;current-projects&#34;&gt;Current Projects&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Linux from Scratch (LFS)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been working on this for a while, and I&amp;rsquo;m almost done. Building a Linux system from the ground up has given me huge appreciation for how much work individual distributions put into dealing with the quirks of every single package that make up a Linux system.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m studying and working on a number of projects all of the time. If you have any insights into these, let me know! I&amp;rsquo;m particularly interested in computer, electrical, and mechanical engineering topics.&lt;/p&gt;&#xA;&lt;h2 id=&#34;completed-projects&#34;&gt;Completed Projects&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Linux from Scratch (LFS)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This was an excellent learning experience. Building a Linux system from the ground up gave me huge appreciation for how much work individual distributions put into dealing with the quirks of every single package that make up a Linux system.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
