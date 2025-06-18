@@ -18,7 +18,7 @@ I've just started this course recently, but I'm enjoying it immensely. It covers
 
 - Physics 3 (OpenStax)
 
-I've been studying optics on my own recently, so I'm reading this textbook in preperation for a Modern Physics class that I plan to take soon. It unfortunately doesn't count for elective credit, but it will be enlightening all the same.
+I've been studying optics on my own recently, so I'm reading this textbook in preperation for a Modern Physics class that I plan to take soon. The class unfortunately doesn't count for elective credit, but it will be enlightening all the same.
 
 - CompTIA CySA+
 

@@ -28,3 +28,5 @@ Please check out my resume and reach out! I'd love to connect. Contact informati
 | ![](/network.png) | ![](/azure.png) |
 | ![](/security.png) | ![](/office.png) |
 | ![](/linux.png) |
+
+*Note: Certification IDs are available on my LinkedIn.*
