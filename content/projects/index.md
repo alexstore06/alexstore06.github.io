@@ -4,11 +4,13 @@ title: Projects, etc
 
 I'm studying and working on a number of projects all of the time. If you have any insights into these, let me know! I'm particularly interested in computer, electrical, and mechanical engineering topics.
 
-## Current Projects
+## Completed Projects
 
 - Linux from Scratch (LFS)
 
-I've been working on this for a while, and I'm almost done. Building a Linux system from the ground up has given me huge appreciation for how much work individual distributions put into dealing with the quirks of every single package that make up a Linux system.
+This was an excellent learning experience. Building a Linux system from the ground up gave me huge appreciation for how much work individual distributions put into dealing with the quirks of every single package that make up a Linux system.
+
+## Current Projects
 
 - NAND to Tetris
 
