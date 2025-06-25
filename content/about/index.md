@@ -19,13 +19,13 @@ Please check out my resume and reach out! I'd love to connect. Contact informati
 
 - Calculus 3/Physics 2
 - Advanced C++ Programming
-- *Total credits earned: 96*
+- *Total credits earned: 99*
 
 ## Certifications
 | CompTIA | Microsoft | Dassault Systèmes |
 | :-: | :-: | :-: |
 | ![](/a.png) | ![](/365.png) | ![](/cswa.png) |
-| ![](/network.png) | ![](/azure.png) |
+| ![](/network.png) | ![](/azure.png) | ![](/cswpa-sm.png) |
 | ![](/security.png) | ![](/office.png) |
 | ![](/linux.png) |
 
