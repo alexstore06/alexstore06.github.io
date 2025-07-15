@@ -42,6 +42,8 @@ This has less to do with top-down modeling in particular and more to do with the
 
 Often, when defining parts, you will accidentally make a part dependent on another part which is itself dependent on the first part. This is a circular reference, and SolidWorks is actually pretty good at catching it! Go to `Performance Evaluation` --> `Rebuild Performance` --> `Circular Reference`, and SolidWorks will give you a list of circular references and some tools to fix them.
 
+![Circular References](/images/CircularReference.png)
+
 Unfortunately, when circular references extend through a chain of three or four parts before reaching back to the first one, SolidWorks has a much harder time catching them, and you're going to have a much harder time fixing them.
 
 #### Feature positioning
@@ -50,6 +52,13 @@ At an even more fundamental level, top-down modeling heavily limits how you may 
 Imagine a scenario where you have an assembly with the skeleton and a plate with a number of bolts in it. The bolt holes could be defined a few different ways, but if you're top-down modeling, your hole positions will likely be defined by the skeleton either directly with a Coincident sketch relation or semi-indirectly with a Convert Entities command, either of which would work fine with either an Extruded Cut or a Hole Wizard command.
 
 Ideally, your skeleton part is mated to the origin for maximum stability, but this creates a serious problem. As soon as you move your plate to adjust its position in the assembly, your feature must stay in place relative to the origin, so the feature ends up in an unexpected position or perhaps fails entirely.
+
+{{< side-by-side
+  src1="/images/Plate.png"
+  caption1="*Plate with holes defined by skeleton sketch*"
+  src2="/images/OffsetPlate.png"
+  caption2="*Plate offset relative to origin*"
+>}}
 
 Theoretically, the solution to this is to make sure your parts are fully defined position-wise within the assembly before setting up features that may reference the skeleton, but now you can't move your parts around or pull in a copy of those parts elsewhere in the assembly without putting in great effort to avoid breaking your in-context features. Because of this, the incredible ease of SolidWorks assemblies and mates goes away significantly under this form of top-down modeling.
 
@@ -65,6 +74,8 @@ One of the best things about SolidWorks is its modularity. Each part can be buil
 Instead of primarily using your skeleton in assemblies, first use it in the parts using derived parts.
 
 For each part that must change based on dimensions of the skeleton part, open that individual part file, do `Insert` --> `Part`, and insert your skeleton part. Drag and drop as necessary to move the skeleton part to the top of the Feature Tree.
+
+![Feature Manager](/images/DerivedPart.png)
 
 From there, reference and dimension things as you desire, making full use of Convert Entities and Coincident relations, because your part will now never move relative to the skeleton part, assuming you fix your part to the origin (as you always should regardless). Ideally, you should have no external references to anything but the skeleton part.
 

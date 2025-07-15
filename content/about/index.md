@@ -1,7 +1,7 @@
 ---
 title: About Me
 ---
-{{<image src="/me.jpg" style="width:300px; height:300px; border-radius:10px">}} 
+{{<image src="/images/me.jpg" style="width:300px; height:300px; border-radius:10px">}} 
 
 Hello! I'm Alex Weir, a Liberty University student graduating in 2028 with a Bachelor's in Computer Engineering.
 
@@ -24,9 +24,9 @@ Please check out my resume and reach out! I'd love to connect. Contact informati
 ## Certifications
 | CompTIA | Microsoft | Dassault Systèmes |
 | :-: | :-: | :-: |
-| ![](/a.png) | ![](/365.png) | ![](/cswa.png) |
-| ![](/network.png) | ![](/azure.png) | ![](/cswpa-sm.png) |
-| ![](/security.png) | ![](/office.png) |
-| ![](/linux.png) |
+| ![](/images/a.png) | ![](/images/365.png) | ![](/images/cswa.png) |
+| ![](/images/network.png) | ![](/images/azure.png) | ![](/images/cswpa-sm.png) |
+| ![](/images/security.png) | ![](/images/office.png) |
+| ![](/images/linux.png) |
 
 *Note: Certification IDs are available on my LinkedIn.*

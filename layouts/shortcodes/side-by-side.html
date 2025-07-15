@@ -1,0 +1,13 @@
+<div style="display: flex; align-items: flex-end; justify-content: space-around; gap: 1rem; margin: 2rem 0;">
+
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ .Get "src1" }}" alt="{{ .Get "alt1" }}" style="width: 100%; height: auto; border-radius: 4px;">
+    <figcaption style="font-size: 0.875rem; color: #666; margin-top: 0.5rem;">{{ .Get "caption1" | markdownify }}</figcaption>
+  </figure>
+
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ .Get "src2" }}" alt="{{ .Get "alt2" }}" style="width: 100%; height: auto; border-radius: 4px;">
+    <figcaption style="font-size: 0.875rem; color: #666; margin-top: 0.5rem;">{{ .Get "caption2" | markdownify }}</figcaption>
+  </figure>
+
+</div>
