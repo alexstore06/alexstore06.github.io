@@ -1,7 +1,7 @@
 ---
 title: "A New Approach to Top-Down Modeling"
 date: 2025-07-15T08:02:28-04:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
