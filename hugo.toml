@@ -90,6 +90,11 @@ theme        = "hello-friend-ng"
     url        = "/about"
     weight     = 5
   [[menu.main]]
+    identifier = "articles"
+    name       = "Blog"
+    url        = "/posts"
+    weight     = 3
+  [[menu.main]]
     identifier = "projects"
     name       = "Projects"
     url        = "/projects"

@@ -7,7 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-SA 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 15 Jul 2025 08:02:28 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A New Approach to Top-Down Modeling</title>
+      <link>http://localhost:1313/posts/top-down-modeling/</link>
+      <pubDate>Tue, 15 Jul 2025 08:02:28 -0400</pubDate>
+      <guid>http://localhost:1313/posts/top-down-modeling/</guid>
+      <description>&lt;p&gt;&lt;em&gt;NOTE: While this post mostly talks about SolidWorks, the issues here are fundamental to parametric modeling and will apply to Fusion, FreeCAD, OnShape, or whatever other parametric modeling software you may be using.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ve all been there - one dimension change, one edited mate, and your whole SolidWorks assembly comes crashing down in a wave of red error messages, broken mates, and failed rebuild blings.&lt;/p&gt;&#xA;&lt;p&gt;Anyone who works with large assemblies has to deal with this frequently. As well as you may think you know your assembly, you will inevitably forget about a mate or other constraint somewhere that prevents you from changing exactly the dimension you need to change. SolidWorks doesn&amp;rsquo;t help you a lot with this; the dozens of broken mates that will often result from a change like that do not do a great job of pointing towards the actual root of the problem, the one mate that the over-constraint comes from.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About Me</title>
       <link>http://localhost:1313/about/</link>
