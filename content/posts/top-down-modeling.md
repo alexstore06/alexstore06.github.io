@@ -60,15 +60,15 @@ Unfortunately, that would mean manually mirroring much of the sketch structure f
 Additionally, dimension-reference-based relations seem to be less reliable in even deep (Ctrl-Q) rebuilds, sometimes only resizing properly when you open the individual part file that contains the reference.
 
 ### A Solution?
-One of the best things about SolidWorks is its modularity. Each part can be built on its own, brought into an assembly, and assembled using just a few intuitive mates. To bring this level of modularity to an assembly that needs the benefits of top-down modeling, a couple of modifications to the usual top-down modeling strategy are needed.
+One of the best things about SolidWorks is its modularity. Each part can be built on its own, brought into an assembly, and assembled using a few intuitive mates. To bring this level of modularity to an assembly that needs the benefits of top-down modeling, a couple of modifications to the usual top-down modeling strategy are needed.
 
 Instead of primarily using your skeleton in assemblies, first use it in the parts using derived parts.
 
-For each part that must change based on dimensions of the skeleton part, open that part, do `Insert` --> `Part`, and insert your skeleton part. Drag and drop as necessary to move the skeleton part to the top of the Feature Tree.
+For each part that must change based on dimensions of the skeleton part, open that individual part file, do `Insert` --> `Part`, and insert your skeleton part. Drag and drop as necessary to move the skeleton part to the top of the Feature Tree.
 
 From there, reference and dimension things as you desire, making full use of Convert Entities and Coincident relations, because your part will now never move relative to the skeleton part, assuming you fix your part to the origin (as you always should regardless). Ideally, you should have no external references to anything but the skeleton part.
 
-Then, when you bring parts into an assembly, change the skeleton part, and rebuild, each part will update itself, and no features will depend on part positioning. If you pushed something too far, **only** the part that got pushed too far will fail, and the breakage won't cascade.
+Then, when you bring parts into an assembly, change the skeleton part, and rebuild, each part will update itself, and no features will depend on part positioning since the referenced skeleton part is in the part file rather than at the assembly level. If you pushed something too far, **only** the part that got pushed too far will fail, and the breakage won't cascade.
 
 If you continue to use traditional mates, reliability will be approximately the same as in a bottom-up assembly. Misguided dimension changes will make the same mate errors as you would expect, but crucially, no parts should fail to rebuild, only mates. This makes errors much easier to track down.
 
