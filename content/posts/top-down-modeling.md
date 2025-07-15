@@ -10,9 +10,9 @@ tags:
 
 *NOTE: While this post mostly talks about SolidWorks, the issues here are fundamental to parametric modeling and will apply to Fusion, FreeCAD, OnShape, or whatever other parametric modeling software you may be using.*
 
-We've all been there - one dimension change, one edited mate, and your whole SolidWorks assembly comes crashing down in a wave of red error messages, broken mates, and failed rebuild blings. 
+We've all been there - one dimension change, one edited mate, and your whole SolidWorks assembly comes crashing down in a wave of red error messages, broken mates, and failed rebuild sounds.
 
-Anyone who works with large assemblies has to deal with this frequently. As well as you may think you know your assembly, you will inevitably forget about a mate or other constraint somewhere that prevents you from changing exactly the dimension you need to change. SolidWorks doesn't help you a lot with this; the dozens of broken mates that will often result from a change like that do not do a great job of pointing towards the actual root of the problem, the one mate that the over-constraint comes from.
+Anyone who works with large assemblies has to deal with this frequently. As well as you may think you know your assembly, you will inevitably forget about a mate or other constraint somewhere that prevents you from changing the dimension you need to change. SolidWorks doesn't help you a lot with this; the dozens of broken mates that will often result from a change like that do not do a great job of pointing towards the actual root of the problem, the one mate that the over-constraint comes from.
 
 The solution, as various websites and LLMs will point you to, is top-down modeling: a structured approach where each part is defined based on references to a single "skeleton" part that contains sketches and dimensions for your entire assembly.
 
@@ -22,18 +22,18 @@ The promise is simple; every dimension change, every stretch or shrink or moveme
 #### Rebuild order
 Some issues are simply limitations of SolidWorks itself.
 
-Say you've built a box. The top and bottom of the box have positions and dimensions defined by the skeleton, and the sides, for simplicity's sake, are defined to be at the edges of the top and bottom, so they just stretch depending on where the top and bottom are.
+Say you've built a box out of five individual plates. The base of the box has positions and dimensions defined by the skeleton, and the sides, for simplicity's sake, are defined to be at the edges of the base piece, so they stretch depending on the position and size of that part.
 
-This sounds great right up until you change the skeleton and SolidWorks decides to rebuild the sides first, so their positions are set at the old positions of the top and bottom rather than the new positions that the top and bottom should be at once SolidWorks gets around to rebuilding those.
+This sounds great until you change the skeleton and SolidWorks decides to rebuild the sides first, so their positions are set at the old position of the base piece rather than the new position that the base should be at once SolidWorks gets around to rebuilding it.
 
-Unfortunately, once SolidWorks tries to rebuild the top and bottom, it will notice that the mates with the sides no longer work and will fail the rebuild. This is a very simplistic scenario, one that SolidWorks in reality would likely handle fine, but the concept applies as you build larger and larger assemblies.
+Unfortunately, once SolidWorks tries to rebuild the base, it will notice that the mates with the sides no longer work and will fail the rebuild. This is a very simplistic scenario, one that SolidWorks in reality would likely handle fine, but the concept applies as you build larger and larger assemblies.
 	
 #### "Sticky" errors
-SolidWorks doesn't stop rebuilding once it runs across an error; it keeps rebuilding, attempting to find a stable state. Therefore, when too many parts depend on other parts, a single part failing its rebuild cascades to every other part that has a relationship to that part, however indirect the relationship may be.
+SolidWorks doesn't stop rebuilding once it runs across an error; it keeps rebuilding, attempting to find a stable state for the remaining parts. Therefore, when too many parts depend on other parts, a single part failing its rebuild cascades to every other part that has a relationship to that part, however indirect the relationship may be.
 
 Sometimes, a feature or sketch gets pushed into a "sticky" invalid, unsolvable state, where even a reversion of the change can leave the feature completely broken. This happens frequently with sketches.
 
-When a sketch has external references that move slightly too far, it can be pushed into crossing over itself or flipping the direction of an essential dimension. When those changes create unsolvable geometry, SolidWorks can lock that sketch into place, keeping it from rebuilding properly regardless of the current state of the references.
+When a sketch has external references that move slightly too far, it can cross over itself or flip the direction of an essential dimension. When those changes create unsolvable geometry, SolidWorks can lock that sketch into place, keeping it from rebuilding properly regardless of the current state of the references.
 
 Your only options at this point are either to go manually redraw and redefine the sketch or to force close your document without saving, potentially losing you a lot of the work you've put in.
 
@@ -47,7 +47,7 @@ Unfortunately, when circular references extend through a chain of three or four 
 #### Feature positioning
 At an even more fundamental level, top-down modeling heavily limits how you may be used to building and editing assemblies.
 
-Imagine a scenario where you have an assembly with the skeleton and a plate with a number of bolts in it. The bolt holes could be defined a few different ways, but if you're top-down modeling, your hole positions at the very least will likely be defined by the skeleton either directly with a Coincident sketch relation or semi-indirectly with a Convert Entities command, either of which would work fine with either an Extruded Cut or a Hole Wizard command.
+Imagine a scenario where you have an assembly with the skeleton and a plate with a number of bolts in it. The bolt holes could be defined a few different ways, but if you're top-down modeling, your hole positions will likely be defined by the skeleton either directly with a Coincident sketch relation or semi-indirectly with a Convert Entities command, either of which would work fine with either an Extruded Cut or a Hole Wizard command.
 
 Ideally, your skeleton part is mated to the origin for maximum stability, but this creates a serious problem. As soon as you move your plate to adjust its position in the assembly, your feature must stay in place relative to the origin, so the feature ends up in an unexpected position or perhaps fails entirely.
 
@@ -77,4 +77,4 @@ To take it a step further, you could also make all your assembly mates relative 
 You don't have to use this strategy exclusively. You can absolutely combine it with other external references and mates; your assembly reliability and flexibility will generally be inversely proportional to the number of other external references you have, but sometimes 80% reliability for 50% less development time is all you're looking for.
 
 ### Conclusion
-I've had to learn this all the hard way over the last number of weeks, and I hope this helps you to avoid these issues. Use your tools; External References, Performance Evaluation, Interference Detection, Section View, and simply just suppressing and unsuppressing parts can be invaluable for debugging assemblies. Good luck!
+I've had to learn this all the hard way over the last number of weeks, and I hope this helps you to avoid these issues. Use your tools; External References, Performance Evaluation, Interference Detection, Section View, and simply suppressing and unsuppressing parts can be invaluable for debugging assemblies. Good luck!

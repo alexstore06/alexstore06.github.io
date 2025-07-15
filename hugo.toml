@@ -2,6 +2,7 @@ baseurl      = "https://alexstore06.github.io/"
 title        = "Alexander Weir"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
+timeZone = "America/New_York"
 
 [pagination]
   disableAliases = false
