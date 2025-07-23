@@ -77,6 +77,16 @@ For each part that must change based on dimensions of the skeleton part, open th
 
 ![Feature Manager](/images/DerivedPart.png)
 
+*Edit 7/23/2025: Derived parts are not always an effective solution for this because SolidWorks will often "cache" part updates, causing failures down the line.*
+
+*This is a SolidWorks problem, not a parametric modeling problem.*
+
+*Instead, put each part into its own assembly with the skeleton part and use external references to define the part. Then, if necessary, use a tool like AutomateWorks or another SolidWorks API tool to automate opening and saving each subassembly to force SolidWorks to update the geometry.*
+
+*If you're using configurations of your skeleton part, API tools are also very helpful for changing the skeleton part configuration in each subassembly. Cascading configuration changes through assembly levels is not recommended.*
+
+*All of the advice below continues to apply.*
+
 From there, reference and dimension things as you desire, making full use of Convert Entities and Coincident relations, because your part will now never move relative to the skeleton part, assuming you fix your part to the origin (as you always should regardless). Ideally, you should have no external references to anything but the skeleton part.
 
 Then, when you bring parts into an assembly, change the skeleton part, and rebuild, each part will update itself, and no features will depend on part positioning since the referenced skeleton part is in the part file rather than at the assembly level. If you pushed something too far, **only** the part that got pushed too far will fail, and the breakage won't cascade.
