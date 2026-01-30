@@ -1,5 +1,5 @@
 ---
-title: "A New Approach to Top-Down Modeling"
+title: "Straightforward Top-Down Modeling in SolidWorks"
 date: 2025-07-15T08:02:28-04:00
 draft: false
 toc: false
@@ -8,7 +8,7 @@ tags:
   - SolidWorks
 ---
 
-*NOTE: While this post mostly talks about SolidWorks, the issues here are fundamental to parametric modeling and will apply to Fusion, FreeCAD, OnShape, or whatever other parametric modeling software you may be using.*
+*NOTE (edited 01/30/26): While this post mostly talks about SolidWorks, the issues here are fundamental to parametric modeling and ~~will apply to Fusion, FreeCAD, OnShape, or whatever other parametric modeling software you may be using~~ may apply to other modeling software. Some programs, like Fusion, use top-down modeling as a fundamental paradigm, making these ideas somewhat unnecessary.*
 
 We've all been there - one dimension change, one edited mate, and your whole SolidWorks assembly comes crashing down in a wave of red error messages, broken mates, and failed rebuild sounds.
 

@@ -12,22 +12,20 @@ This was an excellent learning experience. Building a Linux system from the grou
 
 ## Current Projects
 
-- NAND to Tetris
-
-I've just started this course recently, but I'm enjoying it immensely. It covers the full computational stack: logic gates, architecture, machine code, operating systems, and compilers. With its additional heavy coverage of HDLs (hardware description languages), it even interfaces with the topics I'm covering in my Computer Engineering degree.
-
-- Physics 3 (OpenStax)
-
-I've been studying optics on my own recently, so I'm reading this textbook in preperation for a Modern Physics class that I plan to take soon. The class unfortunately doesn't count for elective credit, but it will be enlightening all the same.
-
-- CompTIA CySA+
-
-The CySA+ will be my next major certification. I've been studying cybersecurity in a competition environment for some time now, so I'm feeling confident about it.
-
 - Basys3 FPGA
 
-I bought this FPGA board recently to do some experimentation. I'm hoping to learn a lot about FPGAs and logic design over the coming months.
+I bought this FPGA board to do some experimentation. I've already learned a lot about logic design and HDLs, and I'm currently using it for Honors projects.
 
 ## Classes taken outside of program
 
 - Accounting I
+- Statics (Mechanical Engineering)
+- Data Structures & Algorithms
+- Computer Networking
+
+## Current OS
+
+- **Desktop**: Arch/KDE Plasma 6
+- **Laptop**: macOS 26
+
+This changes regularly based on curiosity and whatever projects I happen to be working on at the time.
