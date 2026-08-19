@@ -1,5 +1,6 @@
 ---
 title: Projects, etc
+draft: true
 ---
 
 I'm studying and working on a number of projects all of the time. If you have any insights into these, let me know! I'm particularly interested in computer, electrical, and mechanical engineering topics.
@@ -22,10 +23,4 @@ I bought this FPGA board to do some experimentation. I've already learned a lot 
 - Statics (Mechanical Engineering)
 - Data Structures & Algorithms
 - Computer Networking
-
-## Current OS
-
-- **Desktop**: Arch/KDE Plasma 6
-- **Laptop**: macOS 26
-
-This changes regularly based on curiosity and whatever projects I happen to be working on at the time.
+- Computer Architecture (CS)

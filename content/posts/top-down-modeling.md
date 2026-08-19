@@ -55,8 +55,10 @@ Ideally, your skeleton part is mated to the origin for maximum stability, but th
 
 {{< side-by-side
   src1="/images/Plate.png"
+  alt1="SolidWorks plate with holes defined by skeleton sketch"
   caption1="*Plate with holes defined by skeleton sketch*"
   src2="/images/OffsetPlate.png"
+  alt2="SolidWorks plate offset relative to origin"
   caption2="*Plate offset relative to origin*"
 >}}
 

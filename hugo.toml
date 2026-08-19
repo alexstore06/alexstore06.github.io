@@ -1,6 +1,6 @@
 baseurl      = "https://alexstore06.github.io/"
 title        = "Alexander Weir"
-languageCode = "en-us"
+defaultContentLanguage = "en"
 theme        = "hello-friend-ng"
 timeZone = "America/New_York"
 
@@ -30,7 +30,7 @@ timeZone = "America/New_York"
   # Metadata mostly used in document's head
   description = "Alexander Weir's Website"
   keywords = "homepage, personal"
-  images = [""]
+  images = ["/images/me.jpg"]
 
     [params.footer]
     trademark = 2026
@@ -40,7 +40,7 @@ timeZone = "America/New_York"
 
     topText = []
     bottomText = [
-      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      "Powered by <a href=\"https://gohugo.io\">Hugo</a>",
       "Theme by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
     ]
 
@@ -64,6 +64,7 @@ timeZone = "America/New_York"
 [languages]
   [languages.en]
     title = "Alexander Weir"
+    locale = "en-US"
 
     copyright = '<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>'
     
@@ -95,11 +96,11 @@ timeZone = "America/New_York"
     name       = "Blog"
     url        = "/posts"
     weight     = 3
-  [[menu.main]]
-    identifier = "projects"
-    name       = "Projects"
-    url        = "/projects"
-    weight     = 1
+#  [[menu.main]]
+#    identifier = "projects"
+#    name       = "Projects"
+#    url        = "/projects"
+#    weight     = 1
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

@@ -1,35 +1,34 @@
 ---
 title: About Me
 ---
-{{<image src="/images/me.jpg" style="width:300px; height:300px; border-radius:10px">}} 
+{{<image src="/images/me.jpg" alt="Alexander Weir profile picture" style="width:300px; height:300px; border-radius:10px">}} 
 
-Hello! I'm Alex Weir, a Liberty University student graduating Spring 2028 with a Bachelor's in Computer Engineering and a triple minor in Computer Science, Math, and Physics.
+Hello! I'm Alex Weir, a Computer Engineering student at Liberty University (graduating May 2028, Honors) with minors in Computer Science and Mathematics.
 
-I love tech, engineering, and physics and have particular skills in computer networking, having studied it for a number of years now. I have a considerable and growing collection of certifications to demonstrate my broad range of IT, networking, and security knowledge.
+I'm very enthusiastic about **hardware engineering, digital logic, and RF**. Currently, I am a Network Engineering Intern at **L3Harris Technologies**, where I work with SDRs and a host of protocols on all layers. Previously, I worked as a Mechanical Engineering Intern at **Valmet**, developing automated CAD pipelines and designing components for recovery boilers.
 
-I'm also on the Liberty University Collegiate Cyber Defense Competition (CCDC) team, focusing on Linux and network enumeration and hardening.
+I am President of **Liberty SEARCH**, a student organization dedicated to amateur radio, signals exploitation, and antenna/RF design. I am a ham (NA4CZ) with my **Amateur Extra** license, and I also hold the **FCC GROL with Radar Endorsement** and **GMDSS Radio Operator/Maintainer (DB)** commercial licenses.
 
-Though I'm not quite out of college, I'm studying cross-discipline engineering topics heavily on my own and plan to take many classes outside my degree program over my time at Liberty.
+I previously served as a Linux Administrator on Liberty's **CCDC** cybersecurity team and as System Administrator for the **High-Performance Computing Club**.
 
-Please check out my resume and reach out! I'd love to connect. Contact information is on the links on the front page or in my resume.
+Please feel free to check out my resume below and connect on [LinkedIn](https://www.linkedin.com/in/alexander-weir-0b5521261/)!
 
 #### [Resume (PDF)](/Resume2026.pdf)
 ---
-## Major Classes Taken
 
-- Calculus 3; Differential Equations
-- Physics 2
-- Advanced C++ Programming
-- DC Circuits
-- *Total credits earned: 118*
+## Academics
+- **Hardware**: Computer Architecture, Logic Design, AC and DC Circuit Analysis, Embedded Systems *(In Progress)*, Signals & Systems *(In Progress)*, Electronics *(In Progress)*
+- **Software**: Data Structures & Algorithms (C++), Advanced C++, Network Architecture & Protocols
+- **Mathematics & Physics**: Applied Linear Algebra, Differential Equations, Calculus 3, Discrete Mathematics, Modern Physics, Physics 1 & 2
+- *Cumulative GPA: 3.81 (4x Dean's List) | Total credits earned: 137*
 
-## Certifications
-| CompTIA | Microsoft | Dassault Systèmes |
-| :-: | :-: | :-: |
-| ![](/images/a.png) | ![](/images/365.png) | ![](/images/cswa.png) |
-| ![](/images/network.png) | ![](/images/azure.png) | ![](/images/cswp.png) |
-| ![](/images/security.png) | ![](/images/office.png) | ![](/images/cswpa-sm.png) |
-| ![](/images/linux.png) | | ![](/images/cswpa-dt.png) |
-| ![](/images/cysa.png) |
+## Certifications & Licenses
+| CompTIA | Microsoft | Dassault Systèmes | FCC Licenses |
+| :-: | :-: | :-: | :-: |
+| ![CompTIA A+](/images/a.png) | ![Microsoft 365 Certified](/images/365.png) | ![CSWA - Certified SOLIDWORKS Associate](/images/cswa.png) | **GROL + Radar** |
+| ![CompTIA Network+](/images/network.png) | ![Microsoft Certified: Azure Fundamentals](/images/azure.png) | ![CSWP - Certified SOLIDWORKS Professional](/images/cswp.png) | **Amateur Extra (NA4CZ)** |
+| ![CompTIA Security+](/images/security.png) | ![Microsoft Office Specialist](/images/office.png) | ![CSWPA - Sheet Metal](/images/cswpa-sm.png) | **GMDSS Operator & Maintainer (DB)** |
+| ![CompTIA Linux+](/images/linux.png) | | ![CSWPA - Drawing Tools](/images/cswpa-dt.png) | |
+| ![CompTIA CySA+](/images/cysa.png) |
 
-*Note: Certification IDs are available on my LinkedIn.*
+*Note: Certification IDs and license verification are available on my LinkedIn.*
